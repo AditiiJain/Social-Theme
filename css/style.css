@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.navbar{
+  
+    /* height:60px;        doubt*/
+    border-bottom: 3px solid #008ed6;
+    opacity: .8;
+}
+
+.nav-link{
+    font-size: 16px;
+    margin-right:20px;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size:22px ;
+}
+
+.navbar-toggler:focus{
+    outline:none;
+}
+
+
+@media(max-width:576px)
+{
+    .navbar-brand{
+        font-size: 18px;
+    }
+
+    .nav-link{
+        font-size:14px ;
+    }
+}
