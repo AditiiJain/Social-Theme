@@ -9,19 +9,16 @@ body{
 
 .navbar{
   
-    /* height:60px;        doubt*/
     border-bottom: 3px solid #008ed6;
     opacity: .8;
 }
 
 .nav-link{
-    font-size: 16px;
-    margin-right:20px;
+    font-size:14px ;
 }
 
 .navbar-brand{
-    font-weight: bold;
-    font-size:22px ;
+    font-size: 18px;
 }
 
 .navbar-toggler:focus{
@@ -29,13 +26,17 @@ body{
 }
 
 
-@media(max-width:576px)
+@media(min-width:576px)
 {
     .navbar-brand{
-        font-size: 18px;
+     
+        font-weight: bold;
+        font-size:22px ;
     }
 
     .nav-link{
-        font-size:14px ;
+     
+        font-size: 16px;
+        margin-right:20px;
     }
 }
