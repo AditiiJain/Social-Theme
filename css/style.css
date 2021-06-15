@@ -1,42 +1,92 @@
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    box-sizing: border-box;
+body {
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
-.navbar{
-  
-    border-bottom: 3px solid #008ed6;
-    opacity: .8;
+.navbar {
+  border-bottom: 4px solid #05386b;
+  opacity: 0.8;
 }
 
-.nav-link{
-    font-size:14px ;
+.nav-link {
+  font-size: 14px;
 }
 
-.navbar-brand{
-    font-size: 18px;
+.navbar-brand {
+  font-size: 18px;
 }
 
-.navbar-toggler:focus{
-    outline:none;
+.navbar-toggler:focus {
+  outline: none;
 }
 
+.row {
+  justify-content: space-around;
+}
 
-@media(min-width:576px)
-{
-    .navbar-brand{
-     
-        font-weight: bold;
-        font-size:22px ;
-    }
+.card {
+  background-image: linear-gradient(to bottom, #5cdb95, #379683);
+  color: #edf5e1;
+}
 
-    .nav-link{
-     
-        font-size: 16px;
-        margin-right:20px;
-    }
+.card-form {
+  opacity: 0.9;
+}
+
+#home {
+  background: url("https://cdn.searchenginejournal.com/wp-content/uploads/2019/01/10-Reasons-Why-Social-Media-Is-Important-to-Your-Company-1520x800.png");
+  background-repeat: no-repeat center;
+  background-size: cover;
+  min-height: 700px;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+#home .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  max-height: 700px;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.display-4 {
+  font-size: 50px;
+}
+.home-inner {
+  padding: 160px 0px;
+}
+
+.btn {
+    border:2px solid #05386b;
+    background-color: #05386b;
+    color: #edf5e1;
+    transition: transform 1s;
+}
+.btn:hover{
+   transform: scale(.95);
+  }
+
+@media (min-width: 576px) {
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-form {
+    margin: 20px;
+  }
 }
