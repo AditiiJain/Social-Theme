@@ -63,6 +63,7 @@ body {
   padding: 160px 0px;
 }
 
+<<<<<<< HEAD
 .btn {
     border:2px solid #05386b;
     background-color: #05386b;
@@ -84,6 +85,20 @@ body {
     margin-right: 20px;
   }
 }
+=======
+.card{
+    color:#fff;
+    background-color:#05386b;
+}
+
+@media(min-width:576px)
+{
+    .navbar-brand{
+     
+        font-weight: bold;
+        font-size:22px ;
+    }
+>>>>>>> 08716610574336415892967b4c4fe7c319d5a939
 
 @media (max-width: 576px) {
   .card-form {
