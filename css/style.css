@@ -80,7 +80,7 @@ body {
 
 
 /* explore section */
-.jumbotron{
+#explore .jumbotron{
     background-color: #05386b;
     color:#edf5e1;
 }
@@ -92,6 +92,22 @@ border:none;
 padding:12px;
 font-size: 17px;
 }
+
+
+/* create section  & share section*/
+#create .jumbotron,#share .jumbotron{
+  background-color: #379683;
+  color:#edf5e1;
+}
+
+#create .btn,#share .btn{
+background-color:#05386b;
+color:#379683;
+border:none;
+padding:12px;
+font-size: 17px;
+}
+
 
 
 /* media queries  */
