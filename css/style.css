@@ -26,6 +26,11 @@ body{
 }
 
 
+.card{
+    color:#fff;
+    background-color:#05386b;
+}
+
 @media(min-width:576px)
 {
     .navbar-brand{
