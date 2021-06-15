@@ -5,8 +5,10 @@
 
 body {
   box-sizing: border-box;
-  overflow: hidden;
+  background-color: #edf5e1;
+  overflow-x: hidden;
 }
+/* navigation */
 
 .navbar {
   border-bottom: 4px solid #05386b;
@@ -24,7 +26,7 @@ body {
 .navbar-toggler:focus {
   outline: none;
 }
-
+/* home section */
 .row {
   justify-content: space-around;
 }
@@ -63,8 +65,10 @@ body {
   padding: 160px 0px;
 }
 
-<<<<<<< HEAD
-.btn {
+.fas{
+    font-size: 35px;
+}
+#home .btn {
     border:2px solid #05386b;
     background-color: #05386b;
     color: #edf5e1;
@@ -74,6 +78,23 @@ body {
    transform: scale(.95);
   }
 
+
+/* explore section */
+.jumbotron{
+    background-color: #05386b;
+    color:#edf5e1;
+}
+
+#explore .btn{
+    background-image: linear-gradient(to bottom, #5cdb95, #379683);
+color:#05386b;
+border:none;
+padding:12px;
+font-size: 17px;
+}
+
+
+/* media queries  */
 @media (min-width: 576px) {
   .navbar-brand {
     font-weight: bold;
@@ -85,20 +106,6 @@ body {
     margin-right: 20px;
   }
 }
-=======
-.card{
-    color:#fff;
-    background-color:#05386b;
-}
-
-@media(min-width:576px)
-{
-    .navbar-brand{
-     
-        font-weight: bold;
-        font-size:22px ;
-    }
->>>>>>> 08716610574336415892967b4c4fe7c319d5a939
 
 @media (max-width: 576px) {
   .card-form {
