@@ -13,9 +13,9 @@
     <title>Social Theme</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#main-nav" id="main-home">
 
-    <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top py-3">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top py-3" id="main-nav">
         <div class="container ">
             <a href="index.html" class="navbar-brand">Socials</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link">HOME</a>
+                        <a href="#main-home" class="nav-link">HOME</a>
                     </li>
                     <li class="nav-item">
                         <a href="#explore" class="nav-link">EXPLORE</a>
@@ -120,140 +120,181 @@
         </div>
         <div class="explore-and-connect">
             <div class="container">
-            <div class="row">
-                
+                <div class="row">
+
                     <div class="col-md-6 mb-4">
-                        <img src="./assets/explore.jpg"
-                            alt="pic" class="img-fluid rounded-circle">
+                        <img src="./assets/explore.jpg" alt="pic" class="img-fluid rounded-circle">
                     </div>
                     <div class="col-md-6">
                         <h2>Explore & Connect</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
                             reprehenderit ullam, optio officia laborum unde.lorem6 Lorem ipsum dolor sit amet
                             consectetur.</p>
-                            <div class="d-flex">
-                                <div class="p-4 align-self-start">
-                                    <i class="fas fa-check-circle"></i>
-                                </div>
-                                <div class="py-4 align-self-end">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus blanditiis, soluta
-                                    tenetur ut odio in quas saepe ad at veritatis?
-                                </div>
+                        <div class="d-flex">
+                            <div class="p-4 align-self-start">
+                                <i class="fas fa-check-circle"></i>
                             </div>
-                            <div class="d-flex">
-                                <div class="p-4 align-self-start">
-                                    <i class="fas fa-check-circle"></i>
-                                </div>
-                                <div class="py-4 align-self-end">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus blanditiis, soluta
-                                    tenetur ut odio in quas saepe ad at veritatis?
-                                </div>
+                            <div class="py-4 align-self-end">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus blanditiis, soluta
+                                tenetur ut odio in quas saepe ad at veritatis?
                             </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="p-4 align-self-start">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="py-4 align-self-end">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus blanditiis, soluta
+                                tenetur ut odio in quas saepe ad at veritatis?
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-<!-- create section -->
-<section id="create">
-    <div class="jumbotron jumbotron-fluid text-center">
-        <div class="container">
-            <h1 class="display-4">
-               Create
-            </h1>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. At veniam deserunt voluptatum
-                blanditiis quam labore fugit, nostrum harum incidunt tenetur esse voluptates, sint commodi debitis
-                veritatis autem aliquam quidem minus.</p>
-            <button class="btn ">Find Out More</button>
-        </div>
-    </div>
-    <div class="create-further">
-        <div class="container">
-        <div class="row flex-row-reverse">
-            
-                <div class="col-md-6 mb-4">
-                    <img src="./assets/create.jpg"
-                        alt="pic" class="img-fluid rounded-circle">
-                </div>
-                <div class="col-md-6">
-                    <h2>Create What You Love</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-                        reprehenderit ullam, optio officia laborum unde.lorem6 Lorem ipsum dolor sit amet
-                        consectetur.</p>
-                        <div class="d-flex">
-                            <div class="p-4 align-self-start">
-                                <i class="fas fa-check-circle"></i>
-                            </div>
-                            <div class="py-4 align-self-end">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus blanditiis, soluta
-                                tenetur ut odio in quas saepe ad at veritatis?
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <div class="p-4 align-self-start">
-                                <i class="fas fa-check-circle"></i>
-                            </div>
-                            <div class="py-4 align-self-end">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus blanditiis, soluta
-                                tenetur ut odio in quas saepe ad at veritatis?
-                            </div>
-                        </div>
-                </div>
+    <!-- create section -->
+    <section id="create">
+        <div class="jumbotron jumbotron-fluid text-center">
+            <div class="container">
+                <h1 class="display-4">
+                    Create
+                </h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. At veniam deserunt voluptatum
+                    blanditiis quam labore fugit, nostrum harum incidunt tenetur esse voluptates, sint commodi debitis
+                    veritatis autem aliquam quidem minus.</p>
+                <button class="btn ">Find Out More</button>
             </div>
         </div>
-    </div>
-</section>
-<!-- share section -->
-<section id="share">
-    <div class="jumbotron jumbotron-fluid text-center">
-        <div class="container">
-            <h1 class="display-4">
-              Share
-            </h1>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. At veniam deserunt voluptatum
-                blanditiis quam labore fugit, nostrum harum incidunt tenetur esse voluptates, sint commodi debitis
-                veritatis autem aliquam quidem minus.</p>
-            <button class="btn ">Find Out More</button>
-        </div>
-    </div>
-    <div class="share-further">
-        <div class="container">
-        <div class="row">
-            
-                <div class="col-md-6 mb-4">
-                    <img src="./assets/share.jpg"
-                        alt="pic" class="img-fluid rounded-circle">
-                </div>
-                <div class="col-md-6">
-                    <h2>Share What You Create</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-                        reprehenderit ullam, optio officia laborum unde.lorem6 Lorem ipsum dolor sit amet
-                        consectetur.</p>
-                        <div class="d-flex">
-                            <div class="p-4 align-self-start">
-                                <i class="fas fa-check-circle"></i>
-                            </div>
-                            <div class="py-4 align-self-end">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus blanditiis, soluta
-                                tenetur ut odio in quas saepe ad at veritatis?
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <div class="p-4 align-self-start">
-                                <i class="fas fa-check-circle"></i>
-                            </div>
-                            <div class="py-4 align-self-end">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus blanditiis, soluta
-                                tenetur ut odio in quas saepe ad at veritatis?
-                            </div>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+        <div class="create-further">
+            <div class="container">
+                <div class="row flex-row-reverse">
 
+                    <div class="col-md-6 mb-4">
+                        <img src="./assets/create.jpg" alt="pic" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Create What You Love</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                            reprehenderit ullam, optio officia laborum unde.lorem6 Lorem ipsum dolor sit amet
+                            consectetur.</p>
+                        <div class="d-flex">
+                            <div class="p-4 align-self-start">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="py-4 align-self-end">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus blanditiis, soluta
+                                tenetur ut odio in quas saepe ad at veritatis?
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="p-4 align-self-start">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="py-4 align-self-end">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus blanditiis, soluta
+                                tenetur ut odio in quas saepe ad at veritatis?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- share section -->
+    <section id="share">
+        <div class="jumbotron jumbotron-fluid text-center">
+            <div class="container">
+                <h1 class="display-4">
+                    Share
+                </h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. At veniam deserunt voluptatum
+                    blanditiis quam labore fugit, nostrum harum incidunt tenetur esse voluptates, sint commodi debitis
+                    veritatis autem aliquam quidem minus.</p>
+                <button class="btn ">Find Out More</button>
+            </div>
+        </div>
+        <div class="share-further">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6 mb-4">
+                        <img src="./assets/share.jpg" alt="pic" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Share What You Create</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                            reprehenderit ullam, optio officia laborum unde.lorem6 Lorem ipsum dolor sit amet
+                            consectetur.</p>
+                        <div class="d-flex">
+                            <div class="p-4 align-self-start">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="py-4 align-self-end">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus blanditiis, soluta
+                                tenetur ut odio in quas saepe ad at veritatis?
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="p-4 align-self-start">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="py-4 align-self-end">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus blanditiis, soluta
+                                tenetur ut odio in quas saepe ad at veritatis?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row text-center p-4">
+                <div class="col py-4">
+                    <h3>Socials</h3>
+                    <p>Copyright &copy;<span id="year"></span></p>
+                    <button class="btn" data-toggle="modal" data-target="
+                    #modal-contact">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- modal -->
+    <div class="modal" id="modal-contact">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <h3 class="modal-title">Contact Us</h3>
+                    <button class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" row="10" placeholder="Message"></textarea>
+
+                        </div>
+                     </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-block" >Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
@@ -266,6 +307,28 @@
     <script>
         // Get the current year for the copyright
         $('#year').text(new Date().getFullYear());
+
+        $('body').scrollspy({ target: '#main-nav' });
+
+// Add smooth scrolling
+$('#main-nav a').on('click', function (e) {
+  // Check for a hash value
+  if (this.hash !== '') {
+    // Prevent default behavior
+    e.preventDefault();
+
+    // Store hash
+    const hash = this.hash;
+
+    // Animate smooth scroll
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function () {
+      // Add hash to URL after scroll
+      window.location.hash = hash;
+    });
+  }
+});
     </script>
 </body>
 

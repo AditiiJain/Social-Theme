@@ -65,50 +65,59 @@ body {
   padding: 160px 0px;
 }
 
-.fas{
-    font-size: 35px;
+.fas {
+  font-size: 35px;
 }
 #home .btn {
-    border:2px solid #05386b;
-    background-color: #05386b;
-    color: #edf5e1;
-    transition: transform 1s;
+  border: 2px solid #05386b;
+  background-color: #05386b;
+  color: #edf5e1;
+  transition: transform 1s;
 }
-.btn:hover{
-   transform: scale(.95);
-  }
-
+.btn:hover {
+  transform: scale(0.95);
+}
 
 /* explore section */
-#explore .jumbotron{
-    background-color: #05386b;
-    color:#edf5e1;
+#explore .jumbotron {
+  background-color: #05386b;
+  color: #edf5e1;
 }
 
-#explore .btn{
-    background-image: linear-gradient(to bottom, #5cdb95, #379683);
-color:#05386b;
-border:none;
-padding:12px;
-font-size: 17px;
+#explore .btn,
+.main-footer .btn  {
+  background-image: linear-gradient(to bottom, #5cdb95, #379683);
+  color: #05386b;
+  border: none;
+  padding: 12px;
+  font-size: 17px;
 }
-
 
 /* create section  & share section*/
-#create .jumbotron,#share .jumbotron{
+#create .jumbotron,
+#share .jumbotron {
   background-color: #379683;
-  color:#edf5e1;
+  color: #edf5e1;
 }
 
-#create .btn,#share .btn{
-background-color:#05386b;
-color:#379683;
-border:none;
-padding:12px;
-font-size: 17px;
+#create .btn,
+#share .btn, .modal-footer .btn {
+  background-color: #05386b;
+  color: #379683;
+  border: none;
+  padding: 12px;
+  font-size: 17px;
 }
 
+/* footer */
+.main-footer {
+  background-color: #05386b;
+  color: #edf5e1;
+}
 
+.modal-header h3{
+  color:#05386b;
+}
 
 /* media queries  */
 @media (min-width: 576px) {
